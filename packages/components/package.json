@@ -1,0 +1,12 @@
+{
+  "name": "@workspace/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./pokeGridData.tsx",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

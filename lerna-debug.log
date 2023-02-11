@@ -1,0 +1,16 @@
+0 silly argv { _: [ 'bootstrap' ], lernaVersion: '6.4.1', '$0': 'lerna' }
+1 notice cli v6.4.1
+2 verbose rootPath /Users/omardev/Desktop/poc
+3 error JSONError: Unexpected string in JSON at position 279 while parsing '{  "name": "@workspace/pokemon-app",  ' in packages/pokedex/package.json
+3 error
+3 error [0m [90m 12 |[39m     [32m"@workspace/components"[39m[33m:[39m [32m"0.1.0"[39m[33m,[39m[0m
+3 error [0m [90m 13 |[39m     [32m"utils"[39m[33m:[39m [32m"*"[39m[0m
+3 error [0m[31m[1m>[22m[39m[90m 14 |[39m     [32m"@mui/x-data-grid"[39m[33m:[39m [32m"^5.17.23"[39m[33m,[39m[0m
+3 error [0m [90m    |[39m     [31m[1m^[22m[39m[0m
+3 error [0m [90m 15 |[39m     [32m"@types/next-redux-wrapper"[39m[33m:[39m [32m"^3.0.0"[39m[33m,[39m[0m
+3 error [0m [90m 16 |[39m     [32m"@types/redux"[39m[33m:[39m [32m"^3.6.0"[39m[33m,[39m[0m
+3 error [0m [90m 17 |[39m     [32m"next"[39m[33m:[39m [32m"13.1.6"[39m[33m,[39m[0m
+3 error
+3 error     at parseJson (/Users/omardev/.nvm/versions/node/v18.12.1/lib/node_modules/lerna/node_modules/parse-json/index.js:29:21)
+3 error     at parse (/Users/omardev/.nvm/versions/node/v18.12.1/lib/node_modules/lerna/node_modules/load-json-file/index.js:15:9)
+3 error     at module.exports (/Users/omardev/.nvm/versions/node/v18.12.1/lib/node_modules/lerna/node_modules/load-json-file/index.js:18:47)
